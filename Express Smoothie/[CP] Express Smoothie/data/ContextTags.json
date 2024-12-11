@@ -1,0 +1,62 @@
+{
+    "Changes": [
+        // Cactus Fruit
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["90", "ContextTags"],
+            "Entries": {
+                "citrus_item": "citrus_item",
+                "acid_item": "acid_item"
+            }
+        },
+        // Blueberry
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["258", "ContextTags"],
+            "Entries": {
+                "acid_item": "acid_item"
+            }
+        },
+        // Hot Pepper
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["260", "ContextTags"],
+            "Entries": {
+                "acid_item": "acid_item"
+            }
+        },
+        // Blackberry
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["410", "ContextTags"],
+            "Entries": {
+                "acid_item": "acid_item"
+            }
+        },
+        // Orange
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["635", "ContextTags"],
+            "Entries": {
+                "citrus_item": "citrus_item",
+                "acid_item": "acid_item"
+            }
+        },
+        // Cherry
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["638", "ContextTags"],
+            "Entries": {
+                "citrus_item": "citrus_item",
+                "acid_item": "acid_item"
+            }
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

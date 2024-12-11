@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+				"Soid64_Milkshake": "{{i18n: Milkshake_flavored}}",
+				"Smoothie_flavored": "{{i18n: Smoothie_flavored}}"
+			}
+        }
+	],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

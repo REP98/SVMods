@@ -1,0 +1,70 @@
+[ 
+    {
+        "Id": "Soid64.Mixer_Express", 
+        "GroupID": "Soid64_MFM.Recipes",
+        "Text": "Mixer_Express.text", 
+        "Title": "Mixer_Express.title",        
+        "Recipe": "Soid64_MixerExpress",
+		"LetterBG":"ExpressSmoothieBG.png",
+		"Repeatable": false,
+        "FriendshipConditions":
+        [
+            { "NpcName": "Alex", "FriendshipLevel": 5 }
+        ]
+
+    },
+	{
+		"Id": "Soid64.Smoothie31",
+		"GroupID": "Soid64.ArtisanGood",
+		"Text": "31.text",
+		"LetterBG":"ExpressSmoothieBG.png",
+		"Recipe": null,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Soid64_O_TOL",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Alex", "FriendshipLevel": 7 }
+		]
+	},
+	{
+		"Id": "Soid64.Moriche",
+		"GroupID": "Soid64.ArtisanGood",
+		"Text": "Moriche.text",
+		"LetterBG":"ExpressSmoothieBG.png",
+		"Recipe": null,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Soid64_O_Moriche",
+				"Stack": 5
+			}
+		],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kent", "FriendshipLevel": 3 }
+		]
+	},
+	{
+		"Id": "Soid64.Papelon",
+		"GroupID": "Soid64.ArtisanGood",
+		"Text": "Papelon.text",
+		"LetterBG":"ExpressSmoothieBG.png",
+		"Recipe": null,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Soid64_O_Papelon",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Lewis", "FriendshipLevel": 6 }
+		]
+	}	
+]

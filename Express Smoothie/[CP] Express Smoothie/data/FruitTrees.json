@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        // Moriche Tree
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "Soid64_O_MoricheSeed": {
+                    "PlantableLocationRules": null,
+                    "DisplayName": "Moriche",
+                    "Seasons": ["Summer"],
+                    "Fruit": [
+                        {
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "(O)Soid64_O_Moriche",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ObjectColor": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "Texture": "{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 0,
+                    "CustomFields": null
+                }
+            }
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

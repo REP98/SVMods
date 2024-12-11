@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add to Custom Bush Framework",
+            "Action": "EditData",
+            "Target": "furyx639.CustomBush/Data",
+            "Entries": {
+                "(O)Soid64_O_LatinLemonSeed": {
+                    "DisplayName": "{{i18n:Name_LatinLemonSeed}}",
+                    "Description": "{{i18n:Desc_LatinLemonSeed}}",
+                    "AgeToProduce": 12,
+                    "DayToBeginProducing": 0,
+                    "Seasons": ["spring", "summer"],
+                    "ItemsProduced": [{
+                        "ItemId": "(O)Soid64_O_LatinLemon",
+                        "Chance": "1.0",
+                        "MinStack": 2,
+                        "MaxStack": 5,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    }],
+                    "Texture": "{{ModId}}/teabushes",
+                    "IndoorTexture": "{{ModId}}/teabushes_indoors",
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

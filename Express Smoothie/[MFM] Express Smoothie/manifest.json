@@ -1,0 +1,17 @@
+﻿{
+    "Name": "[MFM] Express Smoothie",
+    "Author": "Robert Perez",
+    "Version": "2.0.0",
+    "Description": "Express Shake Message System",
+    "UniqueID": "Soid64.ExpressSmoothieMFM",
+    "Dependencies": [
+        {
+            "UniqueID": "Soid64.ExpressSmoothie",
+            "IsRequired": true
+        }
+   ],
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.MailFrameworkMod"
+    },
+}

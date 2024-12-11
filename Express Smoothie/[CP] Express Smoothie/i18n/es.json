@@ -1,0 +1,31 @@
+{
+    // Machine
+    "Name_MixerExpress": "Mezclador Express",
+    "Desc_MixerExpress": "Maquina que procesa frutas y cultivos para crear deliciosa bebidas y merengadas",
+    // Tree and Bush
+    "Desc_Moriche": "Fruto nutritivo favorito en America del Sur, sobre todo en Amazonia Venezolana",
+    "Name_MoricheSeed": "Brote de Moriche",
+    "Desc_MoricheSeed": "Planta cerca del agua, tarda 28 dias en crecer y da fruto en Verano. debe tener las 8 casillas libre al rededor.",
+    "Name_LatinLemonSeed": "Brote Limón Criollo",
+    "Desc_LatinLemonSeed": "Rico limon latino conocido en varias partes de Sudamérica por ser rico y pequeño con semillas",
+    "Name_LatinLemon": "Limón Criollo",
+    "Desc_LatinLemon": "Rico y jugoso limon latinoamericano, excelente para jugos",
+    // Smoothie and MilkShake
+    "Name_Smoothie": "Batido",
+    "Desc_Smoothie": "Una rica bebida refrescante hecho con frutas.",
+    "Name_Milkshake": "Merengada",
+    "Desc_Milkshake": "Una rica bebida hecha a base de leche con frutas",
+    "Name_BSL": "Papelón con limón",
+    "Desc_BSL": "Una bebida Venezuela Muy refrescante.",
+    "Name_Papelon": "Papelón",
+    "Desc_Papelon": "Un dulce venezolano hecho a base de caña de azucar.",
+    "Name_TOL": "Batido 3 in 1",
+    "Desc_TOL": "Bebida popular por sus valor nutricional y sabor refrescante",
+    // Products
+    "Milkshake_flavored": "Mermelada de {0}",    
+    "Smoothie_flavored": "Batido de {0}",
+    "3in1LatinMessage": "Requiere Zanahoria y Naranja",
+    "BSLMessage": "Requiere Limón",
+    "SmoothieMessage": "Requiere Azucar",
+    "MilkshakeMessage": "Requiere Leche(Cualquiera)"
+}

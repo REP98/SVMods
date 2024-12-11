@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Saloon", "Items" ],
+            "Entries": {
+                "Soid64_O_BSL": {
+                    "Id": "Soid64_O_BSL",
+                    "ItemId": "Soid64_O_BSL"
+                },
+                "Soid64_O_Papelon": {
+                    "Id": "Soid64_O_Papelon",
+                    "ItemId": "Soid64_O_Papelon"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "Soid64_O_LatinLemonSeed": {
+                    "Id": "Soid64_O_LatinLemonSeed",
+                    "ItemId": "Soid64_O_LatinLemonSeed",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "Soid64_O_Papelon": {
+                    "Id": "Soid64_O_Papelon",
+                    "ItemId": "Soid64_O_Papelon"
+                }
+            },
+            "MoveEntries": [
+				{
+					"Id": "Soid64_O_LatinLemonSeed",
+					"BeforeId": "(O)628"
+				}
+			]
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Entries": {
+				"Soid64_O_MoricheSeed": {
+					"Id": "Soid64_O_MoricheSeed",
+					"ItemId": "Soid64_O_MoricheSeed",
+                    "Condition": "YEAR 2",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Soid64_O_MoricheSeed",
+					"AfterId": "(O)494"
+				}
+			]
+		}
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

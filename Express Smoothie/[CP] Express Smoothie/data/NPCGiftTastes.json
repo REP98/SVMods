@@ -1,0 +1,318 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adds Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // Universal
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ",
+                    "Delimiter": " "
+                }, 
+                // Love
+                // Children
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leo", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Vincent", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                // Villagers
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Caroline", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_TOL (O)Soid64_O_Smoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Penny", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Abigail", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Gus", 1],
+                    "Value": "(O)Soid64_O_Papelon",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Sandy", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Moriche",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Linus", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Moriche (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lewis", 1],
+                    "Value": "(O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leah", 1],
+                    "Value": "(O)Soid64_O_Milkshake (O)Soid64_O_TOL (O)Soid64_O_Smoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Alex", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_TOL (O)Soid64_O_Milkshake (O)Soid64_O_Smoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Marnie", 1],
+                    "Value": "(O)Soid64_O_Milkshake (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Emily", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_TOL (O)Soid64_O_Moriche",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Haley", 1],
+                    "Value": "(O)Soid64_O_Smoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Harvey", 1],
+                    "Value": "(O)Soid64_O_TOL",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jodi", 1],
+                    "Value": "(O)Soid64_O_TOL (O)Soid64_O_BSL",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Wizard", 1],
+                    "Value": "(O)Soid64_O_Moriche",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // Adds Gift Tastes to RSV
+        {
+            "LogName": "Adds Gift Tastes to RSV",
+            "Action": "EditData",
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            },
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // Universal
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ",
+                    "Delimiter": " "
+                },
+                // Love
+                // Children
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Yuuma", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Keahi", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Ariah", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Louie", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Trinnie", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                // Villagers
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Pika", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Paula", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Smoothie (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                },                
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Blair", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Papelon (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },                                
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Olga", 1],
+                    "Value": "(O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Shanice", 1],
+                    "Value": "(O)Soid64_O_Smoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lola", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lenny", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Moriche (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Kimpoi", 1],
+                    "Value": "(O)Soid64_O_Milkshake (O)Soid64_O_Moriche",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Malaya", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Moriche (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // Adds Gift Tastes to ES
+        {
+            "LogName": "Adds Gift Tastes to ES",
+            "Action": "EditData",
+            "When": {
+                "HasMod |contains=LemurKat.EastScarpe.CP": true
+            },
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // Universal
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ",
+                    "Delimiter": " "
+                },
+                // Love
+                // Children
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Eloise", 1],
+                    "Value": "(O)Soid64_O_BSL (O)Soid64_O_Moriche (O)Soid64_O_Papelon (O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                // Village
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Rosa", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_Milkshake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jacob", 1],
+                    "Value": "(O)Soid64_O_Moriche (O)Soid64_O_Milkshake (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Aideen", 1],
+                    "Value": "(O)Soid64_O_Smoothie (O)Soid64_O_BSL (O)Soid64_O_TOL",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}
+

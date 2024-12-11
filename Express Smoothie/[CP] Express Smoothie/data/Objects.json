@@ -1,0 +1,191 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                // Bebidas
+                "Soid64_O_Smoothie": {
+                    "Name":"Soid64_O_Smoothie",
+                    "DisplayName": "{{i18n:Name_Smoothie}}",
+                    "Description":"{{i18n:Desc_Smoothie}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 250,
+                    "IsDrink": true,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 0,
+                    "ColorOverlayFromNextIndex": true,
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "color_white",
+                        "modid_soid64.express_smoothie",
+                        "drink_item",
+                        "category_cooking"
+                    ]
+                },
+                "Soid64_O_Milkshake": {
+                    "Name":"Soid64_O_Milkshake",
+                    "DisplayName": "{{i18n:Name_Milkshake}}",
+                    "Description":"{{i18n:Desc_Milkshake}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 350,
+                    "IsDrink": true,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 2,
+                    "ColorOverlayFromNextIndex": true, 
+                    "Edibility": 70,
+                    "ContextTags": [
+                        "color_white",
+                        "modid_soid64.express_smoothie",
+                        "drink_item",
+                        "category_cooking"
+                    ]
+                },
+                "Soid64_O_BSL": {
+                    "Name":"Soid64_O_BSL",
+                    "DisplayName": "{{i18n:Name_BSL}}",
+                    "Description":"{{i18n:Desc_BSL}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 450,
+                    "IsDrink": true,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 4,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 120,
+                    "ContextTags": [
+                        "color_brown",
+                        "modid_soid64.express_smoothie",
+                        "drink_item",
+                        "category_cooking"
+                    ]
+                },
+                "Soid64_O_TOL": {
+                    "Name":"Soid64_O_TOL",
+                    "DisplayName": "{{i18n:Name_TOL}}",
+                    "Description":"{{i18n:Desc_TOL}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 650,
+                    "IsDrink": true,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 10,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 250,
+                    "ContextTags": [
+                        "color_medium_violet_red",
+                        "modid_soid64.express_smoothie",
+                        "drink_item",
+                        "dye_strong",
+                        "category_cooking"
+                    ]
+                },
+                "Soid64_O_Papelon": {
+                    "Name":"Soid64_O_Papelon",
+                    "DisplayName": "{{i18n:Name_Papelon}}",
+                    "Description":"{{i18n:Desc_Papelon}}",
+                    "Type": "Basic",
+                    "Category": -25,
+                    "Price": 150,
+                    "IsDrink": false,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 5,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "color_brown",
+                        "modid_soid64.express_smoothie",
+                        "category_cooking"
+                    ]
+                },
+                // Crop and Seeds
+                // Moriche
+                "Soid64_O_MoricheSeed": {
+                    "Name":"{{ModId}}}_MoricheSeed",
+                    "DisplayName": "{{i18n:Name_MoricheSeed}}",
+                    "Description":"{{i18n:Desc_MoricheSeed}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1200,
+                    "IsDrink": false,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 6,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "modid_soid64.express_smoothie",
+                        "soid64_shop_pierre"
+                    ]
+                },
+                "Soid64_O_Moriche": {
+                    "Name":"Soid64_O_Moriche",
+                    "DisplayName": "Moriche",
+                    "Description":"{{i18n:Desc_Moriche}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 125,
+                    "IsDrink": false,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 7,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 70,
+                    "ContextTags": [
+                        "color_red",
+                        "modid_soid64.express_smoothie",
+                        "fruit_item",
+                        "fruit_tree_item",
+                        "season_summer"
+                    ]
+                },
+                // Latin Lemon (Limon Latino)
+                // Crecimiento 12 Dia
+                // temporada Primeravera y Verano
+                "Soid64_O_LatinLemonSeed": {
+                    "Name":"Soid64_O_LatinLemonSeed",
+                    "DisplayName": "{{i18n:Name_LatinLemonSeed}}",
+                    "Description":"{{i18n:Desc_LatinLemonSeed}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 600,
+                    "IsDrink": false,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 8,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "soid64_bush_seed",
+                        "soid64_shop_pierre",
+                        "modid_soid64.express_smoothie"
+                    ]
+                },
+                "Soid64_O_LatinLemon": {
+                    "Name":"Soid64_O_LatinLemon",
+                    "DisplayName": "{{i18n:Name_LatinLemon}}",
+                    "Description":"{{i18n:Desc_LatinLemon}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 125,
+                    "IsDrink": false,
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": 9,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 70,
+                    "ContextTags": [
+                        "color_red",
+                        "season_spring",
+                        "season_summer",
+                        "modid_soid64.express_smoothie",
+                        "fruit_item",
+                        "citrus_item",
+                        "acid_item",
+                        "lemon_item",
+                        "soid64_bush_produce"
+                    ]
+                }
+            }
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

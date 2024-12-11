@@ -1,0 +1,43 @@
+{
+    "Format": "2.4.0",
+    "Changes": [
+        // ---- IMAGES
+        // Load Objects
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/FruitTrees, {{ModId}}/Objects, {{ModId}}/Craftable, {{ModId}}/teabushes_indoors", 
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        // add teabushes
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/teabushes",
+            "FromFile": "assets/teabushes_{{season}}.png"
+        },
+        // INCLUDE
+        {
+            "Action":"Include",
+            "FromFile": "data/Strings.json, data/ContextTags.json, data/BigCraftables.json, data/Objects.json, data/FruitTrees.json, data/Machine.json, data/NPCGiftTastes.json, data/teabushes.json, data/Shops.json"
+        },
+        // Crafting Recipes
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Soid64_MixerExpress": "335 5 390 10/Home/Soid64_MixerExpress/true/"
+            }
+        },
+        // Cooking Recipes
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Soid64_O_Papelon": "245 1 724 1/25 5/Soid64_O_Papelon/default/"
+            },
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops" : false
+            }
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/content-patcher.json"
+}

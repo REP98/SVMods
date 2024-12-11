@@ -1,0 +1,26 @@
+{
+    "Name": "[CP] Express Smoothie",
+    "Author": "Robert Pérez",
+    "Version": "2.0.0",
+    "Description": "Maquina para preparar Ricos Batidos y Merengadas.",
+    "UniqueID": "Soid64.ExpressSmoothie",
+    "UpdateKeys": ["Nexus:9883"], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "IsRequired": true
+        },
+        {
+			"UniqueID": "furyx639.CustomBush",
+			"IsRequired": true
+		},
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "IsRequired": false
+        }
+    ],
+    "$schema": "https://smapi.io/schemas/manifest.json"
+}

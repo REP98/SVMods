@@ -1,0 +1,31 @@
+{
+    // Machine
+    "Name_MixerExpress": "Mixer Express",
+    "Desc_MixerExpress": "Machine that processes fruits and crops to create delicious drinks and meringues",
+    // Tree and Bush
+    "Desc_Moriche": "Favorite nutritious fruit in South America, especially in the Venezuelan Amazon",
+    "Name_MoricheSeed": "Moriche Seedling",
+    "Desc_MoricheSeed": "Plant near water, takes 28 days to grow and bears fruit in Summer. Must have 8 free spaces around.",
+    "Name_LatinLemonSeed": "Latin Lemon Seedling",
+    "Desc_LatinLemonSeed": "Delicious Latin lemon known in various parts of South America for being rich and small with seeds",
+    "Name_LatinLemon": "Latin Lemon",
+    "Desc_LatinLemon": "Rich and juicy Latin American lemon, excellent for juices",
+    // Smoothie and MilkShake
+    "Name_Smoothie": "Smoothie",
+    "Desc_Smoothie": "A rich refreshing drink made with fruits.",
+    "Name_Milkshake": "Milkshake",
+    "Desc_Milkshake":"A rich drink made from milk and fruit",
+    "Name_BSL": "Brown Sugar Lemonade",
+    "Desc_BSL": "A very refreshing Venezuelan drink.",
+    "Name_TOL": "3 in 1 Juice",
+    "Desc_TOL": "Popular drink for its nutritional value and refreshing taste",
+    "Name_Papelon": "Panela",
+    "Desc_Papelon": "A Venezuelan sweet made from sugar cane.",
+    // Products
+    "Milkshake_flavored": "{0} Milkshake",
+    "Smoothie_flavored": "{0} Smoothie",
+    "3in1LatinMessage": "Requires Carrot and Orange",
+    "BSLMessage": "Requires Lemon",
+    "SmoothieMessage": "Requires Sugar",
+    "MilkshakeMessage": "Requires Milk"
+}
