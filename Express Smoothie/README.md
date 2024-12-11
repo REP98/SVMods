@@ -12,3 +12,6 @@ Adds a machine to make smoothies and milkshakes, also compatible with all the fr
 - Extra Machine Config
 - Custom Bush
 - Mail FrameworkMod
+
+
+Download in [Nexus](https://www.nexusmods.com/stardewvalley/mods/9883)
